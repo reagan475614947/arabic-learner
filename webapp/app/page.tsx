@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PRIVACY_NOTICE_EN } from "@/lib/privacy";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           </Link>
         </section>
       </div>
+      <p className="privacy-notice">{PRIVACY_NOTICE_EN}</p>
       <p className="home-credit">Developed by Gen @ Feb 2026.</p>
     </div>
   );

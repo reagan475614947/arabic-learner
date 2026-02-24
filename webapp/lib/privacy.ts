@@ -1,0 +1,2 @@
+export const PRIVACY_NOTICE_EN =
+  "Privacy Notice: This is a purely front-end learning app. Your learning progress, quiz results, and profile information are stored only in your current device/browser’s local storage (localStorage) so you can continue after refreshing or returning later. We do not upload, sync, or store this learning data on any server, and we do not share it with third parties. You can reset or export/import your local data anytime from the Progress page; clearing your browser data will also remove your saved learning records.";

@@ -96,9 +96,22 @@ a {
 
 .home-credit {
   margin-top: auto;
+  padding-top: 10px;
+  font-size: 0.8rem;
+  color: #7b8799;
+}
+
+.privacy-notice {
+  max-width: 78ch;
+  margin-top: 16px;
   padding-top: 18px;
   font-size: 0.8rem;
   color: #7b8799;
+  line-height: 1.45;
+}
+
+.home-shell .privacy-notice {
+  margin-top: auto;
 }
 
 .subtitle {

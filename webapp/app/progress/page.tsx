@@ -29,6 +29,7 @@ import {
   type QuizStats,
 } from "@/lib/quizStats";
 import { getTodayDateKey } from "@/lib/storage";
+import { PRIVACY_NOTICE_EN } from "@/lib/privacy";
 
 type Notice = {
   type: "success" | "error";
@@ -361,6 +362,8 @@ export default function ProgressPage() {
           Reset progress
         </button>
       </div>
+
+      <p className="privacy-notice">{PRIVACY_NOTICE_EN}</p>
     </div>
   );
 }
